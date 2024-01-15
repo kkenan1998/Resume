@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
+}
+
+.socio {
+  padding-bottom: 30px;
+}
+
+.card {
+  border: 1px solid rgb(97, 96, 96);
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-1 {
+  background-color: rgb(185, 180, 234);
+}
+
+.bg-2 {
+  background-color: #ddadad;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.conclusion label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.conclusion input,
+.conclusion textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+  color: #000;
+}
+.form-row .conclusion {
+  margin-right: 20px;
+  width: 50%;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .conclusion {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.container {
+  padding: 15px 100px;
+
+  background: rgb(228, 226, 226);
+  max-width: 750px;
+  margin: auto;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 60px;
+}
+.info-text {
+  margin-left: 40px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info h1 {
+  margin-bottom: 20px;
+}
+
+.info p {
+  color: rgb(121, 121, 121);
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info h4 {
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  background-color: rgb(20, 24, 22);
+}
+
+.ig {
+  text-decoration: none;
+}
+
+.ig:hover {
+  color: #e915e9;
+
+  opacity: 0.7;
+}
+
+.tg:hover {
+  color: rgb(22, 129, 200);
+  opacity: 0.7;
+}
+
+.ytb:hover {
+  color: rgb(243, 42, 42);
+  opacity: 0.7;
+}
+
+.ytb:visited {
+  color: red;
+}
+
+.tg:active {
+  color: grey;
+}
+
+.btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px solid;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  color: orange;
+}
+
+.green {
+  color: green;
+  border: 1px red;
+  width: 400px;
+}
+
+a:hover {
+  color: salmon;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 8px;
+  border-bottom: 1px solid grey;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td,
+th {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.table td:hover {
+  background: #8a6d6d;
+  color: white;
+  opacity: 0.7;
+
+  cursor: pointer;
+}
+
+.table th {
+  background: #f79388;
+}
+
+.navbar {
+  margin: 0;
+  border: 1px solid black;
+
+  border-radius: 15px;
+  background: rgb(39, 38, 38);
+}
+
+.navbar ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 20px 10px;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 150px;
+  padding: 7px 0;
+}
+.navbar ul li:hover {
+  background: #ea6767;
+}
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  color: wheat;
+  opacity: 0.5;
+  text-decoration: none;
+}

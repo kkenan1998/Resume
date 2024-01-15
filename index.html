@@ -3,97 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Kanan Khudiyev</title>
   </head>
   <body>
-    <img src="img/photo_2023-12-08_16-02-21.jpg" alt="KK" width="150" />
-    <h1>Kanan Khudiyev</h1>
-    <p>
-      I am Kanan Khudiyev,<strong>a former Chemical Engineer</strong>. I've lost
-      everything beautiful in my life. At the moment, I have no job, no love, no
-      destination. All my close friends and the girl i've loved with all my
-      heart betrayed me. But the the worst thing that i betrayed me myself...
-    </p>
-    <p>
-      I try to concentrate on studying Frontend in order to earn some money, and
-      <em><strong>most importantly,</strong></em> to find my purpose in life
-    </p>
-    <hr />
+    <div class="container">
+      <div class="info">
+        <img src="photo_2023-12-08_16-02-21.jpg" alt="KK" class="avatar" />
+        <div class="info-text">
+          <h1>Kanan Khudiyev</h1>
+          <p>
+            I am Kanan Khudiyev,<strong>a former Chemical Engineer</strong>.
+            I've lost everything beautiful in my life. At the moment, I have no
+            job, no destination
+          </p>
 
-    <h4><strong>My social accounts:</strong></h4>
-    <a href="https://instagram.com/kenan.khudiev" target="_blank">Instagram</a>
-    ~
-    <a href="https://t.me/kenan_khd" target="_blank">Telegram</a>
-    ~
-    <a href="" target="_blank">Youtube</a>
+          <p>
+            I try to concentrate on studying Frontend to earn some money, and
+            <em><strong>most importantly,</strong></em> to find my purpose in
+            life.
+          </p>
+          <br />
 
-    <h2>My hobbies:</h2>
-    <ol>
-      <li>Chess</li>
-      <li>Football</li>
-      <li>Fitness</li>
-      <li>HP</li>
-    </ol>
-
-    <h2>Experience:</h2>
-    <br />
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Position</th>
-          <th>Year(s)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Antalya Shisha</td>
-          <td>Master</td>
-          <td>2018</td>
-        </tr>
-        <tr>
-          <td>Petkim AS</td>
-          <td>Intern Engineer</td>
-          <td>2018-2019</td>
-        </tr>
-        <tr>
-          <td>Glokal AS</td>
-          <td>Translator</td>
-          <td>2021-2022</td>
-        </tr>
-        <tr>
-          <td>Next Chemistry</td>
-          <td>Chem Engineer</td>
-          <td>2022-2023</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <hr />
-    <h2>Contact us:</h2>
-    <br />
-    <form>
-      <div>
-        <label for="name">Your Name:</label>
-        <input type="name" id="name" placeholder="Name" />
-      </div>
-      <div>
-        <label for="email">Your E-Mail:</label>
-        <input type="email" id="email" placeholder="email@example.com" />
+          <h4><strong>My social accounts:</strong></h4>
+          <a
+            href="https://instagram.com/kenan.khudiev"
+            target="_blank"
+            class="ig"
+            >Instagram</a
+          >
+          |
+          <a href="https://t.me/kenan_khd" target="_blank" class="tg"
+            >Telegram</a
+          >
+          |
+          <a href="" target="_blank" class="ytb">Youtube</a>
+        </div>
       </div>
 
-      <div>
-        <label for="message">Your Message:</label>
+      <div class="card bg-1">
+        <h2>My hobbies:</h2>
         <br />
-        <textarea
-          name="message"
-          id="message"
-          cols="20"
-          rows="8"
-          placeholder="Write your message..."
-        ></textarea>
+        <ol class="list">
+          <li>Chess</li>
+          <li>Football</li>
+          <li>Fitness</li>
+          <li>HP</li>
+        </ol>
       </div>
-      <button type="submit">Send!</button>
-    </form>
+      <div class="card bg-2">
+        <h2>Experience:</h2>
+        <br />
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Year(s)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Antalya Shisha</td>
+              <td>Master</td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td>Petkim AS</td>
+              <td>Intern Engineer</td>
+              <td>2018-2019</td>
+            </tr>
+            <tr>
+              <td>Glokal AS</td>
+              <td>Translator</td>
+              <td>2021-2022</td>
+            </tr>
+
+            <tr>
+              <td>Next Chemistry</td>
+              <td>Chemical Engineer</td>
+              <td>2022-2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr />
+      <form action="/" class="form">
+        <h2>Contact us:</h2>
+
+        <div class="form-row">
+          <div class="conclusion">
+            <label for="name">Your Name:</label>
+            <input type="name" id="name" placeholder="Name" />
+          </div>
+          <div class="conclusion">
+            <label for="email">Your E-Mail:</label>
+            <input type="email" id="email" placeholder="email@example.com" />
+          </div>
+        </div>
+
+        <div class="conclusion">
+          <label for="message">Your Message:</label>
+
+          <textarea
+            name="message"
+            id="message"
+            cols="60"
+            rows="10"
+            placeholder="Write your message..."
+          ></textarea>
+        </div>
+        <button type="submit" class="btn">Send!</button>
+      </form>
+    </div>
   </body>
 </html>
